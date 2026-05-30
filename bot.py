@@ -25,7 +25,7 @@ import pytesseract
 # CONFIG
 # ==========================================
 
-TOKEN = "8573067591:AAFgpiqQVHAInFodaIqOWxQibruXoVHshGo"
+TOKEN = os.getenv("8573067591:AAFgpiqQVHAInFodaIqOWxQibruXoVHshGo")
 
 POPPLER_PATH = r"C:\poppler\Library\bin"
 
